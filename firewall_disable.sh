@@ -30,3 +30,5 @@ iptables -P OUTPUT ACCEPT
 iptables -P FORWARD ACCEPT
 
 iptables -L
+
+iptables-save > /etc/iptables/rules.v4
