@@ -60,15 +60,15 @@ cecho () {
  
 warning () {
  
-    cecho -c 'yellow' "$@";
+    cecho -c 'yellow' "😞 $@";
 }
  
 error () {
  
-    cecho -c 'red' "$@";
+    cecho -c 'red' "🤬 $@";
 }
  
 information () {
  
-    cecho -c 'blue' "$@";
+    cecho -c 'blue' "😄 $@";
 }
