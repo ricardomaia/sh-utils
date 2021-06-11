@@ -11,6 +11,7 @@ is_package_installed () {
         error "Este script requer o pacote '$package'.";
         cecho -n -c "white" "Instale com o comando"; 
         information "'apt install iptables-persistent'.";
+        echo;
         exit 1;
 fi
     information "O pacote '$package' foi localizado!";
